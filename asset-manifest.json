@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/babydogecoin/static/css/main.2adf8ee4.css",
+    "main.js": "/babydogecoin/static/js/main.700d1dc6.js",
+    "static/js/787.be636e3c.chunk.js": "/babydogecoin/static/js/787.be636e3c.chunk.js",
+    "static/media/Image 34.png": "/babydogecoin/static/media/Image 34.3d40c0371455522dbbb3.png",
+    "index.html": "/babydogecoin/index.html",
+    "main.2adf8ee4.css.map": "/babydogecoin/static/css/main.2adf8ee4.css.map",
+    "main.700d1dc6.js.map": "/babydogecoin/static/js/main.700d1dc6.js.map",
+    "787.be636e3c.chunk.js.map": "/babydogecoin/static/js/787.be636e3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2adf8ee4.css",
+    "static/js/main.700d1dc6.js"
+  ]
+}
