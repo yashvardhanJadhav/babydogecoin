@@ -1,0 +1,143 @@
+    .bg{
+        background-image: url("/public/images/Image\ 34.png");
+        background-repeat: no-repeat;
+        object-fit: contain;
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+
+    
+    }
+    .slither{
+        position: relative;
+        top: 10%;
+        left: 45%;
+        height: 10vh;
+    }
+    .info{
+        height: 75vh;
+        width: 50%;
+        position: relative;
+        /* width: 10vw; */
+        margin: auto;
+        top: 10%;
+
+
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .heading{
+        position: relative;
+        left: 40%;
+        color: white;
+
+    }
+    .line{ 
+        position: relative;
+        width: 45vw;
+        top: -2%;
+        left: 4%;
+    }
+    .ice{
+        width: 22vw;
+        position: relative;
+        left: 4%;
+    }
+    .fire{
+    width: 22vw;
+    position: relative;
+    left: 7%;
+    }
+    .ammount{
+        color: white;
+        padding: 2px;
+        margin-left: 2vw;
+    }
+    .inputammount{
+        outline: none;
+        width: 45vw;
+        height: 5vh;
+        margin-left: 20px;
+        color: white;
+        background: rgba(0, 0, 0, 0.47);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+    }
+    .inputusername{
+        color: white;
+        outline: none;
+        width: 45vw;
+        height: 5vh;
+        margin-left: 20px;
+        background: rgba(0, 0, 0, 0.47);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+    }
+    ::placeholder{
+        color: white;
+    }
+    .save{
+        /* position: relative; */
+        top: -7%;
+        left: 85%;
+        height: 4.5vh;
+        z-index: 1;
+        border-radius: 15px;
+        background-color: purple;
+        color: white;
+        outline: none;
+        border: none;
+        padding: 3px;
+    }
+
+    @media only screen and (max-width: 720px) {
+        .slither{
+            top:5%;
+            margin: auto;
+            left:30%;
+        }
+        .info{
+            width: 100%;
+            border-radius: 8px;
+
+        }
+        .ice{
+            width: 100%;
+            position: relative;
+            left: 0;
+        }
+        .fire{
+        width: 100%;
+        position: relative;
+        left: 0;
+
+        }
+        .ammount{
+            color: white;
+            margin: auto;
+            text-align: center;
+        }
+        .inputammount{
+            width: 80%;
+            margin: auto;
+            margin-left:10px;
+        }
+    .inputusername{
+        width: 80%;
+        margin: auto;
+        margin-left:10px;
+
+    }
+}

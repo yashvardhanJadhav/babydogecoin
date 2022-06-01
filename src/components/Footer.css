@@ -1,0 +1,47 @@
+.bgimage{
+    
+      background-color: purple;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+.dog{
+    position: relative;
+    top: 15%;
+    left: 30%;
+}
+.socialmedia{
+    position: relative;
+    top: 27%;
+    left: -10%;
+
+}
+h1{
+    position: relative;
+    top: 10%;
+    left: 40%;
+    color: white;
+
+}
+@media only screen and (max-width: 720px) {
+    .dog{
+        height: 150px;
+        margin: auto;
+    }
+    .socialmedia{
+        height: 50px;
+        margin: auto;
+    }
+    .folllow{
+        text-align: center;
+        left: 0;
+    }
+    .bgimage{
+        /* height: inherit; */
+    height: 100vh;
+
+    }
+}

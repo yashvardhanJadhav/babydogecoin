@@ -1,0 +1,119 @@
+    .img{
+        background-image: url("/public/images/Image\ 34.png");
+        background-repeat: no-repeat;
+        object-fit: contain;
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+    }
+    .txt{
+        position: relative;
+        top: 9%;
+        width: 70vw;
+        height: 80vh;
+        margin: auto;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .dogdancing{
+        position: relative;
+        height: 35vh;
+        top: -35%;
+        left: 40%;
+
+    }
+    .ellipse{
+    position: relative;
+    top: -17%;
+    left: 8%;
+    z-index: -1
+    ;
+    }
+    .coin{
+    position: relative;
+    top: -41%;
+    left: 35%;
+
+    }
+    .congratulations{
+        position: relative;
+        /* font-size: larger !important; */
+        top: 0%;
+        /* left: 35%;
+        */
+        margin: auto;
+    }
+    .subheading{
+        position: relative;
+        color: white;
+        left: 40%;
+    }
+    .coinswon{
+        position: relative;
+        top: -40%;
+        color: white;
+        left: 40%;
+    }
+    .noofcoins{
+        position: relative;
+        top: -55%;
+    }
+    .rankheading{
+    position: relative;
+    top: -73%;
+    left: 55%;
+    color: white;
+
+    }
+    .rank{
+    position: relative;
+    top: -73%;
+    left :55%;
+    }
+    @media only screen and (min-width: 720px) {
+        .noofcoins1,.rank1,.rankheading1,.coinswon1,.coin1{
+         
+            display: none;
+
+        }
+    }
+    @media only screen and (max-width: 720px) {
+        .dogdancing{
+            position: relative;
+            top:auto;
+            left: 25%;
+            margin: auto;
+        }
+        .txt{
+            width: 100%;
+            height: 50%;
+            /* text-align: center; */
+        }
+    .congratulations{
+        left: 0;
+        text-align: center;
+        }
+    .subheading{
+        left: 0;
+        text-align: center;
+        }
+        .noofcoins,.rank,.rankheading,.coinswon,.coin{
+         
+            display: none;
+
+        }
+        .yas{
+            top: 0;
+        }
+        .noofcoins1,.rank1,.rankheading1,.coinswon1,.coin1{
+            font-size: 50px;
+
+        }
+        .text{
+            width: auto;
+        }
+    }
